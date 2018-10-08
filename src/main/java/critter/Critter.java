@@ -6,6 +6,8 @@ public class Critter {
 
     private UUID critterID;
 
+    private String hash;
+
     private int vision;
     private int strength;
     private int speed;
@@ -23,6 +25,14 @@ public class Critter {
 
     public void setCritterID(UUID critterID) {
         this.critterID = critterID;
+    }
+
+    public String getHash() {
+        return hash;
+    }
+
+    public void setHash(String hash) {
+        this.hash = hash;
     }
 
     public int getStrength() {
